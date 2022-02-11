@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'Montserrat', 'Inter' sans-serif;
+	src: url(https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap);
+}
+
+.qual-manutencao {
+    padding-left: 0.3%;
+    padding-bottom: 1.5%;
+    font-size: 20px;
+    font-weight: bold;
+}
+  
+fieldset {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border: 2px;
+}
+
+select {
+    padding-right: 30%;
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    margin: 0 0 20px;
+    padding: 5px 10px;
+    width: 50%;
+}
