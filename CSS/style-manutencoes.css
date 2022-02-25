@@ -5,7 +5,7 @@
 
 .qual-manutencao {
     padding-left: 0.3%;
-    padding-bottom: 1.5%;
+    padding-bottom: 10px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -26,4 +26,10 @@ select {
     margin: 0 0 20px;
     padding: 5px 10px;
     width: 50%;
+}
+
+.selecione {
+    display: flex;
+    margin-left: 25px;
+    padding-bottom: 100px;
 }
