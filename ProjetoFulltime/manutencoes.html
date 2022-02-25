@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Agendar Manutenção</title>
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
+      <link rel="stylesheet" type="text/css" href="CSS/style-manutencoes.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+		
+	</head>
+	<body>
+		<header>
+			<div class="center">
+
+				<div class="logo"><img src="./images/fulltime-chip.png" width="120" ></div><!--logo-->
+				
+				<div class="menu">
+					<a href="index.html">Home</a>
+					<a href="manutencoes.html">Manutenções</a>
+					<a href="#">Solicitações</a>
+				</div><!--menu-->
+			</div><!--center-->
+			<div class="center-back"></div>
+		</header>
+      <main>
+         <form>
+            <fieldset>
+             <legend for="tiposDeManutencao" class="qual-manutencao">Qual Manutenção será feita?</legend>
+             <select id="tiposDeManutencao">
+                <option value=""></option>
+                <option value="manutencaoPreventiva">Manutenção Preventiva</option>
+                <option value="manutencaoPreditiva">Manutenção Preditiva</option>
+                <option value="manutencaoDeRastreadores">Manutenção de Rastreadores</option>
+                <option value="manutencaoDeSmartlink">Manutenção de Smartlink</option>
+             </select>
+            </fieldset>
+            <label id="selecione" class="selecione"></label>
+
+         </form>
+      </main>
+      <script type="text/javascript" src="index.js"></script>
+   </body>
+</html>
